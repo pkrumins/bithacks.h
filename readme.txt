@@ -23,18 +23,18 @@ Table of contents:
 
 The "bithacks.h" header provides the following macros:
 
-    · B8(x)            - turns x written in binary into decimal,
-    · B_EVEN(x)        - tests if x is even                    (bithack #1),
-    · B_ODD(x)         - tests if x is odd         (inverse of (bithack #1)),
-    · B_IS_SET(x, n)   - tests if n-th bit is set in x         (bithack #2),
-    · B_SET(x, n)      - sets n-th bit in x                    (bithack #3),
-    · B_UNSET(x, n)    - unsets n-th bit in x                  (bithack #4),
-    · B_TOGGLE(x, n)   - toggles n-th bit in x                 (bithack #5),
-    · B_TURNOFF_1(x)   - turns off the right-most 1-bit in x   (bithack #6),
-    · B_ISOLATE_1(x)   - isolates the right-most 1-bit in x    (bithack #7),
-    · B_PROPAGATE_1(x) - propagates the right-most 1-bit in x  (bithack #8),
-    · B_ISOLATE_0(x)   - isolates the right-most 0-bit in x    (bithack #9),
-    · B_TURNON_0(x)    - turn on the right-most 0-bit in x     (bithack #10).
+    * B8(x)            - turns x written in binary into decimal,
+    * B_EVEN(x)        - tests if x is even                    (bithack #1),
+    * B_ODD(x)         - tests if x is odd         (inverse of (bithack #1)),
+    * B_IS_SET(x, n)   - tests if n-th bit is set in x         (bithack #2),
+    * B_SET(x, n)      - sets n-th bit in x                    (bithack #3),
+    * B_UNSET(x, n)    - unsets n-th bit in x                  (bithack #4),
+    * B_TOGGLE(x, n)   - toggles n-th bit in x                 (bithack #5),
+    * B_TURNOFF_1(x)   - turns off the right-most 1-bit in x   (bithack #6),
+    * B_ISOLATE_1(x)   - isolates the right-most 1-bit in x    (bithack #7),
+    * B_PROPAGATE_1(x) - propagates the right-most 1-bit in x  (bithack #8),
+    * B_ISOLATE_0(x)   - isolates the right-most 0-bit in x    (bithack #9),
+    * B_TURNON_0(x)    - turn on the right-most 0-bit in x     (bithack #10).
 
 
 [2]-The-test-program-bithacks-test.c------------------------------------------
@@ -62,7 +62,7 @@ Absolutely Must Know About":
 Also see the original article on bithacks.h "bithacks.h - bit hacks header
 file":
 
-    http://www.catonmat.net/blog/asynchronous-dns-resolution/
+    http://www.catonmat.net/blog/bit-hacks-header-file/
 
 
 ------------------------------------------------------------------------------
