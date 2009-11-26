@@ -21,7 +21,7 @@ Table of contents:
 
 [1]-Macros-in-bithhacks.h-file------------------------------------------------
 
-The “bithacks.h” header provides the following macros:
+The "bithacks.h" header provides the following macros:
 
     · B8(x)            - turns x written in binary into decimal,
     · B_EVEN(x)        - tests if x is even                    (bithack #1),
