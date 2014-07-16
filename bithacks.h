@@ -65,6 +65,9 @@
 /* turn on right-most 0-bit in x */
 #define B_TURNON_0(x)    ((x) |= ((x)+1))
 
+/* swap two values */
+#define B_SWAP(x, y)     ((x)=(x)^(y);(y)=(x)^(y);(x)=(x)^(y);)
+
 /*
 ** more bit hacks coming as soon as I post an article on advanced bit hacks
 */
